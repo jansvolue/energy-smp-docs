@@ -92,6 +92,7 @@ Each object is owned by some other object (owner). It is called ownership
 relation.
 
 Ownership relations can be:
+
 * one-to-one
 * one-to-many (collection): where value of *many* is in range defined by
   *minimum* and *maximum cardinality* on relation `attribute definition` level.
@@ -106,6 +107,7 @@ Link relation is a relation where one object may point to another object, but
 does not own it. There is also a versioned link relation, which is a link
 relation where the target object can change over time. It consists of a list of
 pairs:
+
 * Target object identifier.
 * Timestamp which indicates start of the period where the target object is
   active (linked to), the target object is active until the next target object
@@ -114,6 +116,7 @@ pairs:
 ![Versioned link relation](./VersionedLinkRelation.png)
 
 There are four types of link relation attributes:
+
 * one-to-one
 * one-to-many (collection)
 * versioned one-to-one
