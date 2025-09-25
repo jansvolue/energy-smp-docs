@@ -54,7 +54,7 @@ The resource's name will consist of the name of the model definition and a times
 is actively used to retrieve the base for delta-based updates.
 
 In practice, model definition updates are done by using a script called `ModelUpdate.ps1` which is
-distributed alongside release packages. However, this document dwelves deeper into the underlying
+distributed alongside release packages. However, this document delves deeper into the underlying
 process for updating, and indicates some of the problems that may arise along the way.
 
 Throughout this document (and other literature) we'll use the term "model update" to refer to an
@@ -111,7 +111,7 @@ missing validations and accepting operations that should not be allowed/authoriz
 Another reason could be a wrong understanding of the latest installed master model definition
 (`Base`) when doing version comparison.
 
-An ["on-top" update](#assign-based-on-top-update) can probably also lead to a situation like this,
+An ["on-top" update](#assign-based-on-top-updates) can probably also lead to a situation like this,
 for instance because parts that should be removed from the model definition are still not removed. 
 
 There exist some other problems as well:
