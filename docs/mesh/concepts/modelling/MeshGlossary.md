@@ -54,7 +54,7 @@
     and object definitions. Similar to namespaces they are used for grouping
     and filtering purposes.
 
-![Figure 1](./MM-WhoPointsToWho-1_new.png)
+![Figure 1](./Modelling.png)
 
 ## Model
   * Model - `Model definition` instance.
