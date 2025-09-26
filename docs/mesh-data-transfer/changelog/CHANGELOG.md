@@ -7,7 +7,7 @@ Version 2.19
 Features
 --------
 
-- [We have added support to `DisableImportReply` toggle in `ImportWorker` settings that allows disabling the import replies.][#667]
+- [We have added support for the `DisableImportReply` toggle in the `ImportWorker` settings that allows disabling the import replies.][#667]
 
 [#667]: https://github.com/Volue/energy-mesh-data-transfer/issues/667
 
@@ -27,8 +27,8 @@ Fixes
 
 - [We have fixed an issue where intermittent delays were observed when receiving messages from Service Bus queues.][#665]
 Fixing the issue requires configuration changes.
-- `ImportWorker:ReceiveTimeout` parameter controls the timeout of a message receive call, with a default value of 100 ms. Increasing the timeout might help to fix the issue.
-- `ServiceBus:PrefetchCount` parameter specifies the number of messages prefetched and cached before the actual message is requested. Default number is 0, meaning no prefetch. Increasing the value of `PrefetchCount` might help to fix the issue.
+- The `ImportWorker:ReceiveTimeout` parameter controls the timeout of a message receive call, with a default value of 100 ms. Increasing the timeout might help to fix the issue.
+- The `ServiceBus:PrefetchCount` parameter specifies the number of messages prefetched and cached before the actual message is requested. Default number is 0, meaning no prefetch. Increasing the value of `PrefetchCount` might help to fix the issue.
 
 - [We have fixed an issue where the import requests could not be identified in the debug logs.][#664]
 
