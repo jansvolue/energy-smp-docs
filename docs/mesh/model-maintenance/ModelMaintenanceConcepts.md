@@ -9,7 +9,7 @@ Mesh operates under a few basic assumptions:
 ## "Model definition" vs "model"
 A model definition is a description of a domain with respect to object types, attributes, and
 relations. It defines what information is available through Mesh for this domain. An instance of
-a model definition is simply called a "model". See also the [Modelling](../concepts/modelling//MeshGlossary.md).
+a model definition is simply called a "model". See also the [Modelling](../concepts/modelling//general.md).
 
 ## The `EnergySystem` model definition
 This is the Mesh model definition made by Volue to cover the information needed by the Mesh
